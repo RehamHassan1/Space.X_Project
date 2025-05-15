@@ -1,0 +1,14 @@
+git init
+git add README.md   -   git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nooreldeenmagdy/test_repo
+git push -u origin main
+
+------------
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin  https://github.com/<your-github-user-name>/<your-project-name>.git
+git push -f https://<your-personal-access-token>@github.com>//<your-github-user-name>/<your-project-name>.git
